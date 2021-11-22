@@ -1,0 +1,23 @@
+{
+  "name": "testes-e2e-com-cypress",
+  "version": "1.0.0",
+  "description": "Cypress aplicated to test Scratch App(https://notes-serverless-app.com/) funcionalities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeBorges3Ddev/testes-e2e-com-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeBorges3Ddev/testes-e2e-com-cypress/issues"
+  },
+  "homepage": "https://github.com/GuilhermeBorges3Ddev/testes-e2e-com-cypress#readme",
+  "devDependencies": {
+    "cypress": "^8.2.0"
+  }
+}
