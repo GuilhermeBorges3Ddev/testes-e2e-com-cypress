@@ -4,6 +4,8 @@
   "description": "Cypress aplicated to test Scratch App(https://notes-serverless-app.com/) funcionalities",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +21,9 @@
   "homepage": "https://github.com/GuilhermeBorges3Ddev/testes-e2e-com-cypress#readme",
   "devDependencies": {
     "cypress": "^8.2.0",
+    "cypress-mailosaur": "^2.3.3",
     "eslint": "^7.32.0",
-    "eslint-plugin-cypress": "^2.11.3"
+    "eslint-plugin-cypress": "^2.11.3",
+    "faker": "^5.5.3"
   }
 }
