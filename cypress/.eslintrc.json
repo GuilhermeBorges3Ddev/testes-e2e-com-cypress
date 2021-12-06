@@ -3,6 +3,6 @@
       "plugin:cypress/recommended"
     ],
     "rules": {
-      "no-unnecessary-waiting": false
+      "cypress/no-unnecessary-waiting": 0
     }
 }
