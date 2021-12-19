@@ -4,7 +4,7 @@ Cypress aplicated to test Scratch App(https://notes-serverless-app.com/) funcion
 ## Important commands: 
 
 - To open Cypress Runner and see the tests visualized: `npm run cy:open`
-- To open Cypress Runner and see the tests visualized: `npm run test <path-of-.spec-test-file>`
+- To open Cypress Runner and see the tests visualized: `npm test <path-of-.spec-test-file>`
 - To run the Cypress Runner with a specifc tablet viewport you can run a command like that: `npm run test:tablet` 
 
 ## Reference repository to visit:
