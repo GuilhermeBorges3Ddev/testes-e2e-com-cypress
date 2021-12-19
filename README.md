@@ -1,16 +1,46 @@
 # Testes-e2e-com-cypress
-Cypress aplicated to test Scratch App(https://notes-serverless-app.com/) funcionalities
+Cypress aplicated to e2e tests over all Scratch App(https://notes-serverless-app.com/) funcionalities.
+Those tests was wrotten with Github Actions as our CI service.
 
-## Important commands: 
+## Pre-requirements
 
-- To open Cypress Runner and see the tests visualized: `npm run cy:open`
-- To open Cypress Runner and see the tests visualized: `npm test <path-of-.spec-test-file>`
-- To run the Cypress Runner with a specifc tablet viewport you can run a command like that: `npm run test:tablet` 
+To run this project, you will need:
 
-## Reference repository to visit:
+- [git](https://git-scm.com/downloads) (I've used version `2.26.2` while writing this doc)
+- [nodejs](https://nodejs.org/en/) (I've used version `14.17.3` while writing this doc)
+- NPM (I've used version `6.14.13` while writing this doc)
+- [Google Chrome](https://www.google.com/intl/en_us/chrome/) (I've used version `92.0.4515.131` while writing this doc)
 
-- Just check the link https://github.com/wlsf82/testes-e2e-com-cypress and see the lessons/ folder
+**Note:** When installing nodejs, NPM is automatically installed too.
 
-## To see the CI integrated with analytical report:
+## Installation
 
-- Check the following link to the the metrics and test reports: https://dashboard.cypress.io/login
+To install the dev dependencies, run `npm install` (or `npm i` for short.)
+
+## Configuring the environment variables
+
+Before running the tests, some environment variables need to be set up.
+
+Make a copy of the [`cypress.env.example.json`](./cypress.env.example.json) file as `cypress.env.json`, and set the appropriate values for all the variables.
+
+**Note:** `cypress.env.json` file is not tracked by git.
+
+## Running the tests
+
+In this project, you can run tests in interactive and headless modes, and on desktop and tablet viewports.
+
+### Headless mode
+
+Run `npm test` (or `npm t` for short) to run all tests in headless mode using a desktop viewport.
+
+Run `npm run test:tablet` to run the appropriate tests in headless mode using a tablet viewport.
+
+### Interactive mode
+
+Run `npm run cy:open` to open the Cypress Test Runner to run tests in interactive mode using a desktop viewport.
+
+Run `npm run cy:open:tablet` to open the Cypress Test Runner to run tests in interactive mode using a tablet viewport.
+
+___
+
+Made with ❤️ by [GuilhermeBorges3Ddev](https://github.com/GuilhermeBorges3Ddev).
