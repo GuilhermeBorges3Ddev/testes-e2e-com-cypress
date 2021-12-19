@@ -10,3 +10,7 @@ Cypress aplicated to test Scratch App(https://notes-serverless-app.com/) funcion
 ## Reference repository to visit:
 
 - Just check the link https://github.com/wlsf82/testes-e2e-com-cypress and see the lessons/ folder
+
+## To see the CI integrated with analytical report:
+
+- Check the following link to the the metrics and test reports: https://dashboard.cypress.io/login
