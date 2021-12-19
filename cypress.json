@@ -4,5 +4,8 @@
     "experimentalSessionSupport": true,
     "chromeWebSecurity": false,
     "video": false,
-    "experimentalStudio": true
+    "experimentalStudio": true,
+    "env": {
+        "viewportWidthBreakpoint": 768
+    }
 }
